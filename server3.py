@@ -332,7 +332,6 @@ class App(object):
 ################################################################################
 #
 # Main
-
 if __name__ == '__main__':
     if not os.path.isfile('test.csv'):
         print("No data found, generating...")
